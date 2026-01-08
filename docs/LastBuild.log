@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2025.9.30.0" projectFile="C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Document.shfbproj" started="12/8/2025 11:56:22 AM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2025.9.30.0" projectFile="C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\sand.shfbproj" started="1/8/2026 4:41:23 PM">
 <buildStep step="Initializing">
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder&#39;
 Locating components in the following folder(s):
@@ -16,69 +16,589 @@ Clearing any prior web/markdown output...
 </buildStep>
 <buildStep step="ValidatingDocumentationSources">
 Validating and copying documentation source information
-Source: C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\BOOSEapp\obj\Debug\net10.0-windows\BOOSEapp.dll
-    Found assembly &#39;C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\BOOSEapp\obj\Debug\net10.0-windows\BOOSEapp.dll&#39;
-Source: C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\BOOSEapp\obj\Debug\net10.0-windows\BOOSEapp.xml
+Source: C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\BOOSEapp\BOOSEapp.csproj
+    Found project &#39;C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\BOOSEapp\BOOSEapp.csproj&#39;
+
+Parsing project files
+    Found assembly &#39;C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\BOOSEapp\bin\Debug\net10.0-windows\BOOSEapp.dll&#39; (.NETCoreApp 10.0)
+SHFB: Warning BE0007: A project with a different or higher framework version was found.  Changing project FrameworkVersion property from &#39;.NET Framework 4.7.2&#39; to &#39;.NET Core/.NET Standard/.NET 5.0+&#39; for the build.
 
 References to include:
+    Accessibility
     BOOSE
+    Microsoft.CSharp
+    Microsoft.VisualBasic
+    Microsoft.VisualBasic.Core
+    Microsoft.VisualBasic.Forms
+    Microsoft.Win32.Primitives
+    Microsoft.Win32.Registry
+    Microsoft.Win32.Registry.AccessControl
+    Microsoft.Win32.SystemEvents
+    mscorlib
+    netstandard
+    PresentationCore
+    PresentationFramework
+    PresentationFramework.Aero
+    PresentationFramework.Aero2
+    PresentationFramework.AeroLite
+    PresentationFramework.Classic
+    PresentationFramework.Luna
+    PresentationFramework.Royale
+    PresentationUI
+    ReachFramework
+    System
+    System.AppContext
+    System.Buffers
+    System.CodeDom
+    System.Collections
+    System.Collections.Concurrent
+    System.Collections.Immutable
+    System.Collections.NonGeneric
+    System.Collections.Specialized
+    System.ComponentModel
+    System.ComponentModel.Annotations
+    System.ComponentModel.DataAnnotations
+    System.ComponentModel.EventBasedAsync
+    System.ComponentModel.Primitives
+    System.ComponentModel.TypeConverter
+    System.Configuration
+    System.Configuration.ConfigurationManager
+    System.Console
+    System.Core
+    System.Data
+    System.Data.Common
+    System.Data.DataSetExtensions
+    System.Design
+    System.Diagnostics.Contracts
+    System.Diagnostics.Debug
+    System.Diagnostics.DiagnosticSource
+    System.Diagnostics.EventLog
+    System.Diagnostics.FileVersionInfo
+    System.Diagnostics.PerformanceCounter
+    System.Diagnostics.Process
+    System.Diagnostics.StackTrace
+    System.Diagnostics.TextWriterTraceListener
+    System.Diagnostics.Tools
+    System.Diagnostics.TraceSource
+    System.Diagnostics.Tracing
+    System.DirectoryServices
+    System.Drawing
+    System.Drawing.Common
+    System.Drawing.Design
+    System.Drawing.Primitives
+    System.Dynamic.Runtime
+    System.Formats.Asn1
+    System.Formats.Nrbf
+    System.Formats.Tar
+    System.Globalization
+    System.Globalization.Calendars
+    System.Globalization.Extensions
+    System.IO
+    System.IO.Compression
+    System.IO.Compression.Brotli
+    System.IO.Compression.FileSystem
+    System.IO.Compression.ZipFile
+    System.IO.FileSystem
+    System.IO.FileSystem.AccessControl
+    System.IO.FileSystem.DriveInfo
+    System.IO.FileSystem.Primitives
+    System.IO.FileSystem.Watcher
+    System.IO.IsolatedStorage
+    System.IO.MemoryMappedFiles
+    System.IO.Packaging
+    System.IO.Pipelines
+    System.IO.Pipes
+    System.IO.Pipes.AccessControl
+    System.IO.UnmanagedMemoryStream
+    System.Linq
+    System.Linq.AsyncEnumerable
+    System.Linq.Expressions
+    System.Linq.Parallel
+    System.Linq.Queryable
+    System.Memory
+    System.Net
+    System.Net.Http
+    System.Net.Http.Json
+    System.Net.HttpListener
+    System.Net.Mail
+    System.Net.NameResolution
+    System.Net.NetworkInformation
+    System.Net.Ping
+    System.Net.Primitives
+    System.Net.Quic
+    System.Net.Requests
+    System.Net.Security
+    System.Net.ServerSentEvents
+    System.Net.ServicePoint
+    System.Net.Sockets
+    System.Net.WebClient
+    System.Net.WebHeaderCollection
+    System.Net.WebProxy
+    System.Net.WebSockets
+    System.Net.WebSockets.Client
+    System.Numerics
+    System.Numerics.Vectors
+    System.ObjectModel
+    System.Printing
+    System.Private.Windows.Core
+    System.Private.Windows.GdiPlus
+    System.Reflection
+    System.Reflection.DispatchProxy
+    System.Reflection.Emit
+    System.Reflection.Emit.ILGeneration
+    System.Reflection.Emit.Lightweight
+    System.Reflection.Extensions
+    System.Reflection.Metadata
+    System.Reflection.Primitives
+    System.Reflection.TypeExtensions
+    System.Resources.Extensions
+    System.Resources.Reader
+    System.Resources.ResourceManager
+    System.Resources.Writer
+    System.Runtime
+    System.Runtime.CompilerServices.Unsafe
+    System.Runtime.CompilerServices.VisualC
+    System.Runtime.Extensions
+    System.Runtime.Handles
+    System.Runtime.InteropServices
+    System.Runtime.InteropServices.JavaScript
+    System.Runtime.InteropServices.RuntimeInformation
+    System.Runtime.Intrinsics
+    System.Runtime.Loader
+    System.Runtime.Numerics
+    System.Runtime.Serialization
+    System.Runtime.Serialization.Formatters
+    System.Runtime.Serialization.Json
+    System.Runtime.Serialization.Primitives
+    System.Runtime.Serialization.Xml
+    System.Security
+    System.Security.AccessControl
+    System.Security.Claims
+    System.Security.Cryptography
+    System.Security.Cryptography.Algorithms
+    System.Security.Cryptography.Cng
+    System.Security.Cryptography.Csp
+    System.Security.Cryptography.Encoding
+    System.Security.Cryptography.OpenSsl
+    System.Security.Cryptography.Pkcs
+    System.Security.Cryptography.Primitives
+    System.Security.Cryptography.ProtectedData
+    System.Security.Cryptography.X509Certificates
+    System.Security.Cryptography.Xml
+    System.Security.Permissions
+    System.Security.Principal
+    System.Security.Principal.Windows
+    System.Security.SecureString
+    System.ServiceModel.Web
+    System.ServiceProcess
+    System.Text.Encoding
+    System.Text.Encoding.CodePages
+    System.Text.Encoding.Extensions
+    System.Text.Encodings.Web
+    System.Text.Json
+    System.Text.RegularExpressions
+    System.Threading
+    System.Threading.AccessControl
+    System.Threading.Channels
+    System.Threading.Overlapped
+    System.Threading.Tasks
+    System.Threading.Tasks.Dataflow
+    System.Threading.Tasks.Extensions
+    System.Threading.Tasks.Parallel
+    System.Threading.Thread
+    System.Threading.ThreadPool
+    System.Threading.Timer
+    System.Transactions
+    System.Transactions.Local
+    System.ValueTuple
+    System.Web
+    System.Web.HttpUtility
+    System.Windows
+    System.Windows.Controls.Ribbon
+    System.Windows.Extensions
+    System.Windows.Forms
+    System.Windows.Forms.Design
+    System.Windows.Forms.Design.Editors
+    System.Windows.Forms.Primitives
+    System.Windows.Input.Manipulations
+    System.Windows.Presentation
+    System.Windows.Primitives
+    System.Xaml
+    System.Xml
+    System.Xml.Linq
+    System.Xml.ReaderWriter
+    System.Xml.Serialization
+    System.Xml.XDocument
+    System.Xml.XmlDocument
+    System.Xml.XmlSerializer
+    System.Xml.XPath
+    System.Xml.XPath.XDocument
+    UIAutomationClient
+    UIAutomationClientSideProviders
+    UIAutomationProvider
+    UIAutomationTypes
+    WindowsBase
+    WindowsFormsIntegration
 
 Copying XML comments files
-    C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\BOOSEapp\obj\Debug\net10.0-windows\BOOSEapp.xml -&gt; C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\BOOSEapp.xml
+    C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\BOOSEapp\bin\Debug\net10.0-windows\BOOSEapp.xml -&gt; C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\BOOSEapp.xml
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
-    Last step completed in 00:00:00.0050
+    Last step completed in 00:00:00.0014
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0060
+    Last step completed in 00:00:00.0081
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
-[C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-31d73ce8-1141-4b4f-8429-b9b74550cbc4.proj]
-Build started 12/8/2025 11:56:24 AM.
+[C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-5227494b-c317-4f44-bea4-3ef92af6d99b.proj]
+Build started 1/8/2026 4:41:26 PM.
 
-Project &quot;C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\GenerateRefInfo-31d73ce8-1141-4b4f-8429-b9b74550cbc4.proj&quot; on node 1 (default targets).
+Project &quot;C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\GenerateRefInfo-5227494b-c317-4f44-bea4-3ef92af6d99b.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
 GenerateRefInfo:
   Microsoft.Build (v18.0.5+e22287bf154ea3f7a145a18d21938b0d9c881754)
   c Microsoft Corporation. All rights reserved.
   No source code context base path specified.  Source context information is unavailable.
-  Loaded 1 assemblies for reflection and 104 dependency assemblies.
-  Using framework redirect &#39;System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&#39; in place of &#39;System.Windows.Forms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&#39;
-  Using framework redirect &#39;System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&#39; in place of &#39;System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&#39;
-MRefBuilder : warning : Ignoring unresolved assembly reference: System.Drawing.Common (System.Drawing.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51) required by BOOSEapp [C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\GenerateRefInfo-31d73ce8-1141-4b4f-8429-b9b74550cbc4.proj]
-  Using automatic redirect &#39;System.ComponentModel.Primitives, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;System.ComponentModel.Primitives, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
-  Using framework redirect &#39;System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
-  Using framework redirect &#39;Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
-  Wrote information on 1 namespaces, 6 types, and 29 members
+  Loaded 1 assemblies for reflection and 219 dependency assemblies.
+  Wrote information on 1 namespaces, 19 types, and 84 members
   Merging duplicate type and member information
   Merged 0 duplicate type(s) and 0 duplicate member(s)
-Done Building Project &quot;C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\GenerateRefInfo-31d73ce8-1141-4b4f-8429-b9b74550cbc4.proj&quot; (default targets).
-    Last step completed in 00:00:01.4486
+Done Building Project &quot;C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\GenerateRefInfo-5227494b-c317-4f44-bea4-3ef92af6d99b.proj&quot; (default targets).
+    Last step completed in 00:00:01.9651
 </buildStep>
 <buildStep step="ApplyDocumentModel">
 Applying document model to reflection output...
-    Last step completed in 00:00:00.0681
+    Last step completed in 00:00:00.0544
 </buildStep>
 <buildStep step="AddApiTopicFilenames">
 Adding topic filenames to API members...
-    Last step completed in 00:00:00.0199
+    Last step completed in 00:00:00.0216
 </buildStep>
 <buildStep step="GenerateApiTopicManifest">
 Generating API topic manifest...
-    Last step completed in 00:00:00.0160
+    Last step completed in 00:00:00.0167
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0290
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\Microsoft.CSharp.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\Microsoft.VisualBasic.Core.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\Microsoft.Win32.Primitives.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\Microsoft.Win32.Registry.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Collections.Concurrent.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Collections.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Collections.Immutable.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Collections.NonGeneric.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Collections.Specialized.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.ComponentModel.Annotations.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.ComponentModel.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.ComponentModel.EventBasedAsync.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.ComponentModel.Primitives.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.ComponentModel.TypeConverter.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Console.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Data.Common.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Diagnostics.Contracts.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Diagnostics.DiagnosticSource.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Diagnostics.FileVersionInfo.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Diagnostics.Process.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Diagnostics.StackTrace.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Diagnostics.TextWriterTraceListener.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Diagnostics.TraceSource.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Diagnostics.Tracing.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Drawing.Primitives.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Formats.Asn1.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Formats.Tar.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.IO.Compression.Brotli.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.IO.Compression.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.IO.Compression.ZipFile.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.IO.FileSystem.AccessControl.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.IO.FileSystem.DriveInfo.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.IO.FileSystem.Watcher.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.IO.IsolatedStorage.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.IO.MemoryMappedFiles.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.IO.Pipelines.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.IO.Pipes.AccessControl.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.IO.Pipes.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Linq.AsyncEnumerable.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Linq.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Linq.Expressions.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Linq.Parallel.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Linq.Queryable.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Memory.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Net.Http.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Net.Http.Json.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Net.HttpListener.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Net.Mail.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Net.NameResolution.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Net.NetworkInformation.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Net.Ping.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Net.Primitives.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Net.Quic.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Net.Requests.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Net.Security.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Net.ServerSentEvents.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Net.Sockets.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Net.WebClient.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Net.WebHeaderCollection.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Net.WebProxy.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Net.WebSockets.Client.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Net.WebSockets.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Numerics.Vectors.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.ObjectModel.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Reflection.DispatchProxy.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Reflection.Emit.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Reflection.Emit.ILGeneration.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Reflection.Emit.Lightweight.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Reflection.Metadata.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Reflection.Primitives.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Reflection.TypeExtensions.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Resources.Writer.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Runtime.CompilerServices.VisualC.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Runtime.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Runtime.InteropServices.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Runtime.InteropServices.JavaScript.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Runtime.Intrinsics.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Runtime.Loader.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Runtime.Numerics.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Runtime.Serialization.Formatters.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Runtime.Serialization.Json.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Runtime.Serialization.Primitives.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Runtime.Serialization.Xml.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Security.AccessControl.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Security.Claims.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Security.Cryptography.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Security.Principal.Windows.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Text.Encoding.CodePages.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Text.Encoding.Extensions.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Text.Encodings.Web.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Text.Json.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Text.RegularExpressions.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Threading.AccessControl.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Threading.Channels.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Threading.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Threading.Overlapped.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Threading.Tasks.Dataflow.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Threading.Tasks.Parallel.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Threading.Thread.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Threading.ThreadPool.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Transactions.Local.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Web.HttpUtility.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Xml.ReaderWriter.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Xml.XDocument.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Xml.XmlSerializer.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Xml.XPath.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\System.Xml.XPath.XDocument.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\10.0.1\ref\net10.0\Accessibility.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\10.0.1\ref\net10.0\Microsoft.VisualBasic.Forms.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\10.0.1\ref\net10.0\Microsoft.Win32.Registry.AccessControl.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\10.0.1\ref\net10.0\Microsoft.Win32.SystemEvents.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\10.0.1\ref\net10.0\PresentationCore.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\10.0.1\ref\net10.0\PresentationFramework.Aero.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\10.0.1\ref\net10.0\PresentationFramework.Aero2.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\10.0.1\ref\net10.0\PresentationFramework.AeroLite.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\10.0.1\ref\net10.0\PresentationFramework.Classic.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\10.0.1\ref\net10.0\PresentationFramework.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\10.0.1\ref\net10.0\PresentationFramework.Luna.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\10.0.1\ref\net10.0\PresentationFramework.Royale.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\10.0.1\ref\net10.0\PresentationUI.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\10.0.1\ref\net10.0\ReachFramework.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\10.0.1\ref\net10.0\System.CodeDom.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\10.0.1\ref\net10.0\System.Configuration.ConfigurationManager.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\10.0.1\ref\net10.0\System.Diagnostics.EventLog.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\10.0.1\ref\net10.0\System.Diagnostics.PerformanceCounter.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\10.0.1\ref\net10.0\System.DirectoryServices.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\10.0.1\ref\net10.0\System.Drawing.Common.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\10.0.1\ref\net10.0\System.Formats.Nrbf.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\10.0.1\ref\net10.0\System.IO.Packaging.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\10.0.1\ref\net10.0\System.Printing.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\10.0.1\ref\net10.0\System.Resources.Extensions.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\10.0.1\ref\net10.0\System.Security.Cryptography.Pkcs.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\10.0.1\ref\net10.0\System.Security.Cryptography.ProtectedData.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\10.0.1\ref\net10.0\System.Security.Cryptography.Xml.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\10.0.1\ref\net10.0\System.Security.Permissions.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\10.0.1\ref\net10.0\System.Windows.Controls.Ribbon.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\10.0.1\ref\net10.0\System.Windows.Extensions.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\10.0.1\ref\net10.0\System.Windows.Forms.Design.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\10.0.1\ref\net10.0\System.Windows.Forms.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\10.0.1\ref\net10.0\System.Windows.Forms.Primitives.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\10.0.1\ref\net10.0\System.Windows.Input.Manipulations.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\10.0.1\ref\net10.0\System.Windows.Presentation.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\10.0.1\ref\net10.0\System.Xaml.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\10.0.1\ref\net10.0\UIAutomationClient.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\10.0.1\ref\net10.0\UIAutomationClientSideProviders.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\10.0.1\ref\net10.0\UIAutomationProvider.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\10.0.1\ref\net10.0\UIAutomationTypes.xml
+Adding reference assembly XML comments file: C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\10.0.1\ref\net10.0\WindowsFormsIntegration.xml
+    Last step completed in 00:00:02.1929
+</buildStep>
+<buildStep step="GenerateInheritedDocumentation">
+Generating inherited documentation...
+Reflection information will be retrieved from &#39;C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\reflection.xml&#39;
+Indexing C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.1\ref\net10.0\*.xml
+Indexing C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\10.0.1\ref\net10.0\*.xml
+Indexing C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\10.0.1\ref\net10.0\*.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\Microsoft.CSharp.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\Microsoft.VisualBasic.Core.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\Microsoft.Win32.Primitives.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\Microsoft.Win32.Registry.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Collections.Concurrent.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Collections.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Collections.Immutable.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Collections.NonGeneric.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Collections.Specialized.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.ComponentModel.Annotations.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.ComponentModel.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.ComponentModel.EventBasedAsync.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.ComponentModel.Primitives.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.ComponentModel.TypeConverter.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Console.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Data.Common.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Diagnostics.Contracts.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Diagnostics.DiagnosticSource.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Diagnostics.FileVersionInfo.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Diagnostics.Process.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Diagnostics.StackTrace.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Diagnostics.TextWriterTraceListener.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Diagnostics.TraceSource.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Diagnostics.Tracing.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Drawing.Primitives.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Formats.Asn1.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Formats.Tar.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.IO.Compression.Brotli.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.IO.Compression.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.IO.Compression.ZipFile.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.IO.FileSystem.AccessControl.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.IO.FileSystem.DriveInfo.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.IO.FileSystem.Watcher.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.IO.IsolatedStorage.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.IO.MemoryMappedFiles.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.IO.Pipelines.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.IO.Pipes.AccessControl.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.IO.Pipes.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Linq.AsyncEnumerable.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Linq.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Linq.Expressions.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Linq.Parallel.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Linq.Queryable.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Memory.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Net.Http.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Net.Http.Json.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Net.HttpListener.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Net.Mail.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Net.NameResolution.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Net.NetworkInformation.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Net.Ping.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Net.Primitives.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Net.Quic.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Net.Requests.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Net.Security.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Net.ServerSentEvents.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Net.Sockets.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Net.WebClient.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Net.WebHeaderCollection.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Net.WebProxy.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Net.WebSockets.Client.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Net.WebSockets.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Numerics.Vectors.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.ObjectModel.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Reflection.DispatchProxy.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Reflection.Emit.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Reflection.Emit.ILGeneration.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Reflection.Emit.Lightweight.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Reflection.Metadata.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Reflection.Primitives.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Reflection.TypeExtensions.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Resources.Writer.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Runtime.CompilerServices.VisualC.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Runtime.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Runtime.InteropServices.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Runtime.InteropServices.JavaScript.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Runtime.Intrinsics.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Runtime.Loader.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Runtime.Numerics.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Runtime.Serialization.Formatters.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Runtime.Serialization.Json.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Runtime.Serialization.Primitives.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Runtime.Serialization.Xml.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Security.AccessControl.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Security.Claims.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Security.Cryptography.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Security.Principal.Windows.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Text.Encoding.CodePages.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Text.Encoding.Extensions.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Text.Encodings.Web.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Text.Json.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Text.RegularExpressions.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Threading.AccessControl.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Threading.Channels.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Threading.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Threading.Overlapped.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Threading.Tasks.Dataflow.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Threading.Tasks.Parallel.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Threading.Thread.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Threading.ThreadPool.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Transactions.Local.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Web.HttpUtility.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Xml.ReaderWriter.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Xml.XDocument.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Xml.XmlSerializer.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Xml.XPath.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Xml.XPath.XDocument.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\Accessibility.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\Microsoft.VisualBasic.Forms.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\Microsoft.Win32.Registry.AccessControl.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\Microsoft.Win32.SystemEvents.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\PresentationCore.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\PresentationFramework.Aero.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\PresentationFramework.Aero2.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\PresentationFramework.AeroLite.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\PresentationFramework.Classic.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\PresentationFramework.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\PresentationFramework.Luna.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\PresentationFramework.Royale.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\PresentationUI.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\ReachFramework.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.CodeDom.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Configuration.ConfigurationManager.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Diagnostics.EventLog.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Diagnostics.PerformanceCounter.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.DirectoryServices.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Drawing.Common.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Formats.Nrbf.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.IO.Packaging.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Printing.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Resources.Extensions.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Security.Cryptography.Pkcs.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Security.Cryptography.ProtectedData.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Security.Cryptography.Xml.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Security.Permissions.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Windows.Controls.Ribbon.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Windows.Extensions.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Windows.Forms.Design.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Windows.Forms.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Windows.Forms.Primitives.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Windows.Input.Manipulations.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Windows.Presentation.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\System.Xaml.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\UIAutomationClient.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\UIAutomationClientSideProviders.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\UIAutomationProvider.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\UIAutomationTypes.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\WindowsFormsIntegration.xml
+Indexing C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\BOOSEapp.xml
+Indexed 135534 members in 652 file(s).  149 file(s) to scan for &lt;inheritdoc /&gt; tags.
+Merging inherited documentation...
+
+Documentation merged successfully.  Merged comments were saved in &#39;C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\_InheritedDocs_.xml&#39;.
+    Last step completed in 00:00:04.5281
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0020
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
@@ -87,22 +607,22 @@ Merging conceptual and additional tables of contents...
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file for API content...
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.0244
+    Last step completed in 00:00:00.0260
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
-    Last step completed in 00:00:00.1692
+    Last step completed in 00:00:01.4600
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0100
+    Last step completed in 00:00:00.0020
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\BuildAssembler.config
   Updating reference topic configurations.
   No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00.0160
+    Last step completed in 00:00:00.0051
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
@@ -110,22 +630,37 @@ Building help topics...
 Loading TOC info and adding unique IDs to parent nodes
 </plugIn>Loading configuration...
 Processing topics...
-SHFB: Warning BE0066: ShowMissingComponent: [N:BOOSEapp] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [N:BOOSEapp] Unknown reference link target &#39;T:BOOSEapp.AppCommandFactory&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [N:BOOSEapp] Unknown reference link target &#39;T:BOOSE.CommandOneParameter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [N:BOOSEapp] Unknown reference link target &#39;T:BOOSE.CommandTwoParameters&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [N:BOOSEapp] Unknown reference link target &#39;T:BOOSE.CommandThreeParameters&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [N:BOOSEapp] Unknown reference link target &#39;T:BOOSE.CommandTwoParameters&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [N:BOOSEapp] Unknown reference link target &#39;T:BOOSE.CommandOneParameter&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppCanvas] Unknown reference link target &#39;T:BOOSE.ICanvas&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:BOOSEapp.AppCanvas.#ctor(System.Int32,System.Int32)] Unknown reference link target &#39;T:BOOSE.CanvasException&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:BOOSEapp.AppCanvas.Circle(System.Int32,System.Boolean)] Unknown reference link target &#39;M:BOOSE.ICanvas.Circle(System.Int32,System.Boolean)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:BOOSEapp.AppCanvas.Circle(System.Int32,System.Boolean)] Unknown reference link target &#39;T:BOOSE.CanvasException&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:BOOSEapp.AppCanvas.CircleReal(System.Double)] Unknown reference link target &#39;T:BOOSE.CanvasException&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:BOOSEapp.AppCanvas.Clear] Unknown reference link target &#39;M:BOOSE.ICanvas.Clear&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:BOOSEapp.AppCanvas.DrawTo(System.Int32,System.Int32)] Unknown reference link target &#39;M:BOOSE.ICanvas.DrawTo(System.Int32,System.Int32)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:BOOSEapp.AppCanvas.DrawTo(System.Int32,System.Int32)] Unknown reference link target &#39;T:BOOSE.CanvasException&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:BOOSEapp.AppCanvas.getBitmap] Unknown reference link target &#39;M:BOOSE.ICanvas.getBitmap&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:BOOSEapp.AppCanvas.MoveTo(System.Int32,System.Int32)] Unknown reference link target &#39;M:BOOSE.ICanvas.MoveTo(System.Int32,System.Int32)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:BOOSEapp.AppCanvas.MoveTo(System.Int32,System.Int32)] Unknown reference link target &#39;T:BOOSE.CanvasException&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:BOOSEapp.AppCanvas.PenColour] Unknown reference link target &#39;P:BOOSE.ICanvas.PenColour&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:BOOSEapp.AppCanvas.Rect(System.Int32,System.Int32,System.Boolean)] Unknown reference link target &#39;M:BOOSE.ICanvas.Rect(System.Int32,System.Int32,System.Boolean)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:BOOSEapp.AppCanvas.Rect(System.Int32,System.Int32,System.Boolean)] Unknown reference link target &#39;T:BOOSE.CanvasException&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:BOOSEapp.AppCanvas.Reset] Unknown reference link target &#39;M:BOOSE.ICanvas.Reset&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:BOOSEapp.AppCanvas.Set(System.Int32,System.Int32)] Unknown reference link target &#39;M:BOOSE.ICanvas.Set(System.Int32,System.Int32)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:BOOSEapp.AppCanvas.Set(System.Int32,System.Int32)] Unknown reference link target &#39;T:BOOSE.CanvasException&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:BOOSEapp.AppCanvas.SetColour(System.Int32,System.Int32,System.Int32)] Unknown reference link target &#39;M:BOOSE.ICanvas.SetColour(System.Int32,System.Int32,System.Int32)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:BOOSEapp.AppCanvas.SetColour(System.Int32,System.Int32,System.Int32)] Unknown reference link target &#39;T:BOOSE.CanvasException&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:BOOSEapp.AppCanvas.Tri(System.Int32,System.Int32)] Unknown reference link target &#39;M:BOOSE.ICanvas.Tri(System.Int32,System.Int32)&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:BOOSEapp.AppCanvas.WriteText(System.String)] Unknown reference link target &#39;M:BOOSE.ICanvas.WriteText(System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:BOOSEapp.AppCanvas.WriteText(System.String)] Unknown reference link target &#39;T:BOOSE.CanvasException&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:BOOSEapp.AppCanvas.Xpos] Unknown reference link target &#39;P:BOOSE.ICanvas.Xpos&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:BOOSEapp.AppCanvas.Ypos] Unknown reference link target &#39;P:BOOSE.ICanvas.Ypos&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppCircle] Unknown reference link target &#39;T:BOOSE.CommandOneParameter&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppCircle] Unknown reference link target &#39;T:BOOSE.Command&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppCircle] Unknown reference link target &#39;T:BOOSE.CanvasCommand&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppCircle] Unknown reference link target &#39;T:BOOSE.CommandOneParameter&#39;.
@@ -217,6 +752,14 @@ SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:BOOSEapp.AppCirc
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:BOOSEapp.AppCircle] Unknown reference link target &#39;T:BOOSE.CanvasCommand&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:BOOSEapp.AppCircle.#ctor(BOOSE.Canvas,System.Int32)] Unknown reference link target &#39;T:BOOSE.Canvas&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:BOOSEapp.AppCircle.Execute] Unknown reference link target &#39;M:BOOSE.ICommand.Execute&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:BOOSEapp.AppCircle.Execute] Unknown reference link target &#39;T:BOOSE.CanvasException&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSEapp.AppMethodParser.TryParse(System.Collections.Generic.List{System.String},System.Int32,BOOSEapp.MethodDef@,System.Int32@)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSEapp.AppMethodParser.TryParse(System.Collections.Generic.List{System.String},System.Int32,BOOSEapp.MethodDef@,System.Int32@)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSEapp.AppMethodParser.TryParse(System.Collections.Generic.List{System.String},System.Int32,BOOSEapp.MethodDef@,System.Int32@)] Missing &lt;param name=&quot;lines&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSEapp.AppMethodParser.TryParse(System.Collections.Generic.List{System.String},System.Int32,BOOSEapp.MethodDef@,System.Int32@)] Missing &lt;param name=&quot;start&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSEapp.AppMethodParser.TryParse(System.Collections.Generic.List{System.String},System.Int32,BOOSEapp.MethodDef@,System.Int32@)] Missing &lt;param name=&quot;method&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSEapp.AppMethodParser.TryParse(System.Collections.Generic.List{System.String},System.Int32,BOOSEapp.MethodDef@,System.Int32@)] Missing &lt;param name=&quot;nextIndex&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppMoveTo] Unknown reference link target &#39;T:BOOSE.CommandTwoParameters&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppMoveTo] Unknown reference link target &#39;T:BOOSE.Command&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppMoveTo] Unknown reference link target &#39;T:BOOSE.CanvasCommand&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppMoveTo] Unknown reference link target &#39;T:BOOSE.CommandOneParameter&#39;.
@@ -317,6 +860,8 @@ SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:BOOSEapp.AppMove
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:BOOSEapp.AppMoveTo] Unknown reference link target &#39;T:BOOSE.CanvasCommand&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:BOOSEapp.AppMoveTo.#ctor(BOOSE.Canvas,System.Int32,System.Int32)] Unknown reference link target &#39;T:BOOSE.Canvas&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:BOOSEapp.AppMoveTo.Execute] Unknown reference link target &#39;M:BOOSE.ICommand.Execute&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:BOOSEapp.AppMoveTo.Execute] Unknown reference link target &#39;T:BOOSE.CanvasException&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppPenColour] Unknown reference link target &#39;T:BOOSE.CommandThreeParameters&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppPenColour] Unknown reference link target &#39;T:BOOSE.Command&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppPenColour] Unknown reference link target &#39;T:BOOSE.CanvasCommand&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppPenColour] Unknown reference link target &#39;T:BOOSE.CommandOneParameter&#39;.
@@ -426,6 +971,8 @@ SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:BOOSEapp.AppPenC
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:BOOSEapp.AppPenColour] Unknown reference link target &#39;T:BOOSE.CanvasCommand&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:BOOSEapp.AppPenColour.#ctor(BOOSE.Canvas,System.Int32,System.Int32,System.Int32)] Unknown reference link target &#39;T:BOOSE.Canvas&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:BOOSEapp.AppPenColour.Execute] Unknown reference link target &#39;M:BOOSE.ICommand.Execute&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:BOOSEapp.AppPenColour.Execute] Unknown reference link target &#39;T:BOOSE.CanvasException&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppRect] Unknown reference link target &#39;T:BOOSE.CommandTwoParameters&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppRect] Unknown reference link target &#39;T:BOOSE.Command&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppRect] Unknown reference link target &#39;T:BOOSE.CanvasCommand&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppRect] Unknown reference link target &#39;T:BOOSE.CommandOneParameter&#39;.
@@ -526,13 +1073,110 @@ SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:BOOSEapp.AppRect
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:BOOSEapp.AppRect] Unknown reference link target &#39;T:BOOSE.CanvasCommand&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:BOOSEapp.AppRect.#ctor(BOOSE.Canvas,System.Int32,System.Int32)] Unknown reference link target &#39;T:BOOSE.Canvas&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:BOOSEapp.AppRect.Execute] Unknown reference link target &#39;M:BOOSE.ICommand.Execute&#39;.
-Processed 58 topic(s)
-416 warning(s)
-CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 2 of 15.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:BOOSEapp.AppRect.Execute] Unknown reference link target &#39;T:BOOSE.CanvasException&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppWrite] Unknown reference link target &#39;T:BOOSE.CommandOneParameter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppWrite] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppWrite] Unknown reference link target &#39;T:BOOSE.CanvasCommand&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppWrite] Unknown reference link target &#39;T:BOOSE.CommandOneParameter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppWrite] Unknown reference link target &#39;P:BOOSE.CanvasCommand.Canvas&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppWrite] Unknown reference link target &#39;T:BOOSE.CanvasCommand&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppWrite] Unknown reference link target &#39;P:BOOSE.Command.Name&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppWrite] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppWrite] Unknown reference link target &#39;P:BOOSE.Command.ParameterList&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppWrite] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppWrite] Unknown reference link target &#39;P:BOOSE.Command.Parameters&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppWrite] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppWrite] Unknown reference link target &#39;P:BOOSE.Command.Paramsint&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppWrite] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppWrite] Unknown reference link target &#39;P:BOOSE.Command.Program&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppWrite] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppWrite] Unknown reference link target &#39;M:BOOSE.CommandOneParameter.CheckParameters(System.String[])&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppWrite] Unknown reference link target &#39;T:BOOSE.CommandOneParameter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppWrite] Unknown reference link target &#39;M:BOOSE.Command.Compile&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppWrite] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppWrite] Unknown reference link target &#39;M:BOOSE.Command.Execute&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppWrite] Unknown reference link target &#39;M:BOOSE.Command.ProcessParameters(System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppWrite] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppWrite] Unknown reference link target &#39;M:BOOSE.Command.Set(BOOSE.StoredProgram,System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppWrite] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppWrite] Unknown reference link target &#39;M:BOOSE.Command.ToString&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppWrite] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppWrite] Unknown reference link target &#39;F:BOOSE.CanvasCommand.canvas&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppWrite] Unknown reference link target &#39;T:BOOSE.CanvasCommand&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppWrite] Unknown reference link target &#39;F:BOOSE.Command.IsDouble&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppWrite] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppWrite] Unknown reference link target &#39;F:BOOSE.CommandOneParameter.param1&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppWrite] Unknown reference link target &#39;T:BOOSE.CommandOneParameter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppWrite] Unknown reference link target &#39;F:BOOSE.CommandOneParameter.param1unprocessed&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppWrite] Unknown reference link target &#39;T:BOOSE.CommandOneParameter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppWrite] Unknown reference link target &#39;F:BOOSE.Command.parameterList&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppWrite] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppWrite] Unknown reference link target &#39;F:BOOSE.Command.parameters&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppWrite] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppWrite] Unknown reference link target &#39;F:BOOSE.Command.paramsint&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppWrite] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppWrite] Unknown reference link target &#39;F:BOOSE.Command.program&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppWrite] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppWrite] Unknown reference link target &#39;F:BOOSE.CanvasCommand.xPos&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppWrite] Unknown reference link target &#39;T:BOOSE.CanvasCommand&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppWrite] Unknown reference link target &#39;F:BOOSE.CanvasCommand.yPos&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:BOOSEapp.AppWrite] Unknown reference link target &#39;T:BOOSE.CanvasCommand&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:BOOSEapp.AppWrite] Unknown reference link target &#39;M:BOOSE.CommandOneParameter.CheckParameters(System.String[])&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:BOOSEapp.AppWrite] Unknown reference link target &#39;T:BOOSE.CommandOneParameter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:BOOSEapp.AppWrite] Unknown reference link target &#39;M:BOOSE.Command.Compile&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:BOOSEapp.AppWrite] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:BOOSEapp.AppWrite] Unknown reference link target &#39;M:BOOSE.Command.Execute&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:BOOSEapp.AppWrite] Unknown reference link target &#39;M:BOOSE.Command.ProcessParameters(System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:BOOSEapp.AppWrite] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:BOOSEapp.AppWrite] Unknown reference link target &#39;M:BOOSE.Command.Set(BOOSE.StoredProgram,System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:BOOSEapp.AppWrite] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:BOOSEapp.AppWrite] Unknown reference link target &#39;M:BOOSE.Command.ToString&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:BOOSEapp.AppWrite] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:BOOSEapp.AppWrite] Unknown reference link target &#39;P:BOOSE.CanvasCommand.Canvas&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:BOOSEapp.AppWrite] Unknown reference link target &#39;T:BOOSE.CanvasCommand&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:BOOSEapp.AppWrite] Unknown reference link target &#39;P:BOOSE.Command.Name&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:BOOSEapp.AppWrite] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:BOOSEapp.AppWrite] Unknown reference link target &#39;P:BOOSE.Command.ParameterList&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:BOOSEapp.AppWrite] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:BOOSEapp.AppWrite] Unknown reference link target &#39;P:BOOSE.Command.Parameters&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:BOOSEapp.AppWrite] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:BOOSEapp.AppWrite] Unknown reference link target &#39;P:BOOSE.Command.Paramsint&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:BOOSEapp.AppWrite] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:BOOSEapp.AppWrite] Unknown reference link target &#39;P:BOOSE.Command.Program&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:BOOSEapp.AppWrite] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:BOOSEapp.AppWrite] Unknown reference link target &#39;F:BOOSE.CanvasCommand.canvas&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:BOOSEapp.AppWrite] Unknown reference link target &#39;T:BOOSE.CanvasCommand&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:BOOSEapp.AppWrite] Unknown reference link target &#39;F:BOOSE.Command.IsDouble&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:BOOSEapp.AppWrite] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:BOOSEapp.AppWrite] Unknown reference link target &#39;F:BOOSE.CommandOneParameter.param1&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:BOOSEapp.AppWrite] Unknown reference link target &#39;T:BOOSE.CommandOneParameter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:BOOSEapp.AppWrite] Unknown reference link target &#39;F:BOOSE.CommandOneParameter.param1unprocessed&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:BOOSEapp.AppWrite] Unknown reference link target &#39;T:BOOSE.CommandOneParameter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:BOOSEapp.AppWrite] Unknown reference link target &#39;F:BOOSE.Command.parameterList&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:BOOSEapp.AppWrite] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:BOOSEapp.AppWrite] Unknown reference link target &#39;F:BOOSE.Command.parameters&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:BOOSEapp.AppWrite] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:BOOSEapp.AppWrite] Unknown reference link target &#39;F:BOOSE.Command.paramsint&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:BOOSEapp.AppWrite] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:BOOSEapp.AppWrite] Unknown reference link target &#39;F:BOOSE.Command.program&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:BOOSEapp.AppWrite] Unknown reference link target &#39;T:BOOSE.Command&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:BOOSEapp.AppWrite] Unknown reference link target &#39;F:BOOSE.CanvasCommand.xPos&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:BOOSEapp.AppWrite] Unknown reference link target &#39;T:BOOSE.CanvasCommand&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:BOOSEapp.AppWrite] Unknown reference link target &#39;F:BOOSE.CanvasCommand.yPos&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:BOOSEapp.AppWrite] Unknown reference link target &#39;T:BOOSE.CanvasCommand&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:BOOSEapp.AppWrite.Execute] Unknown reference link target &#39;M:BOOSE.ICommand.Execute&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:BOOSEapp.AppWrite.Execute] Unknown reference link target &#39;T:BOOSE.CanvasException&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:BOOSEapp.Interpreter.RunProgram(System.String)] Unknown reference link target &#39;T:BOOSE.CanvasException&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSEapp.ParserException.#ctor(System.String)] Missing &lt;param name=&quot;message&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSEapp.ParserException.#ctor(System.String,System.Exception)] Missing &lt;param name=&quot;message&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:BOOSEapp.ParserException.#ctor(System.String,System.Exception)] Missing &lt;param name=&quot;inner&quot;/&gt; documentation
+Processed 145 topic(s)
+540 warning(s)
+CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 3 of 15.
 CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 4 of 30.
 <plugIn name="Website Table of Contents Generator" behavior="After" priority="1000">
 Generating TOC fragment files
-</plugIn>    Last step completed in 00:00:05.5671
+</plugIn>    Last step completed in 00:00:15.6755
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -568,26 +1212,26 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Defaul
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.inc.php -&gt; C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\Output\Website\SearchHelp.inc.php
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.php -&gt; C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\Output\Website\SearchHelp.php
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\Web.Config -&gt; C:\Users\USER\OneDrive\Desktop\ase-boose-assignment-Rithik47\Help\Working\Output\Website\Web.Config
-    Last step completed in 00:00:00.0445
+    Last step completed in 00:00:00.0720
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
-    Last step completed in 00:00:00.3154
+    Last step completed in 00:00:00.2259
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
 
-Copied 137 files for the website content
-    Last step completed in 00:00:00.1343
+Copied 256 files for the website content
+    Last step completed in 00:00:00.3755
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.0193
+    Last step completed in 00:00:00.0790
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 12/8/2025 11:56:31 AM.  Total time: 00:00:08.7173
+Build completed successfully at 1/8/2026 4:41:53 PM.  Total time: 00:00:29.2249
 
 </buildStep>
 </shfbBuild>
